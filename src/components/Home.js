@@ -11,14 +11,14 @@ function Home(){
         <header className="App-header">
             <section className="container"  >
                 <div > 
-                    <img src={profile} id="profile-pic"/>  
+                    <img src={profile} id="profile-pic" alt="profile"/>  
                 </div>
                 <div id="header-text" >
                     <h1>Hi, my name is Ambar</h1>
                     <h2>Full Stack Developer</h2>
                     <h4>I work in Javascript, React, Ruby, Ruby on Rails </h4>
                 </div>
-                <img src={header} id="header-image"/> 
+                <img src={header} id="header-image" alt="burred code background"/> 
             </section>
       </header>
       <section  className="container">
@@ -31,7 +31,7 @@ function Home(){
             </p>
         </div>
         <div className="column">
-            <img  id="meCollage" src={aboutCollage}/>
+            <img  id="meCollage" src={aboutCollage} alt="favorite activities collage"/>
             </div>
         </div>
       </section>
