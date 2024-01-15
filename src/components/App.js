@@ -6,6 +6,7 @@ import Blog from './Blog';
 import Demos from './Demos';
 import Contact from './Contact';
 import { Routes, Route } from 'react-router-dom';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
           <Route path="blog" element={<Blog/>}/>
           <Route path="contact_me" element={<Contact/>}/>
         </Routes> 
-    
+
+      <footer><Footer/></footer>
+       
     </div>
   );
 }
