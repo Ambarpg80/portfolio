@@ -115,7 +115,7 @@ nav{
   border-radius: 0 35px ;
  }
 
-h2{
+ #about h2, #projects h2 , #blogs h2{
   font-size: 40px;
   text-align: center;
   padding: 2rem;
@@ -163,11 +163,8 @@ line-height: 2rem;
 
 #project1, #project2, #project3,#project4 , #project5 {
   height: 460px;
-  line-height: 1.5rem;
   margin-top: 3rem;
 } 
-
-
 
 #project-image1, #project-image2, #project-image3, #project-image4, #project-image5{
   display: inline;
@@ -180,7 +177,10 @@ line-height: 2rem;
 
 #demos-link{
 text-align: center;
+font-size: 20px;
+font-family: 'Frank Ruhl Libre', serif;
 }
+
 
 /* ******************************* END OF PROJECTS ******************************* */
 /* --------------------------   BLOG SECTION  ------------------------------------ */
@@ -197,7 +197,6 @@ text-align: center;
 
 #blog1, #blog2, #blog3 {
   background-color: rgb(247, 64, 64);
-  color: white;
   border-radius: 25px;
   margin-left:3rem; 
   padding-top: 1rem;
@@ -209,15 +208,21 @@ text-align: center;
 h3{
   font-size: 28px;
 }
-#blogs a{
+#blog1 a, #blog2 a, #blog3 a{
   text-decoration: none;
   color: white;
 }
 
-#blogs a:visited{
-  text-decoration: none;
+#blog1 a:visited, #blog2 a:visited, #blog3 a:visited{
   color: rgb(60, 31, 31);
 }
+
+#blogs-link{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Frank Ruhl Libre', serif;
+  }
+
 /* ******************************* END OF BLOG SECTION  ******************************* */
 /* --------------------------   FOOTER  ------------------------------------ */
 footer{
@@ -261,21 +266,21 @@ footer i{
 }
 
 
-h2{
+#about-page1 h2,#about-page2 h2{
   font-size: 40px;
   text-align: center;
+  font-family:'Playfair Display', serif;
 }
 
 #bio1, #bio3{
 display: flex;
 float: left;
 text-align: start;
-font-size: 20px;
+font-size: 22px;
 min-height: 50dvh;
 width: 80%;
 margin-left: 5rem;
 margin-top: 4rem;
-line-height: 2rem;
 font-family: 'Frank Ruhl Libre', serif;
 }
 
@@ -285,11 +290,10 @@ font-family: 'Frank Ruhl Libre', serif;
   display: flex;
   flex-direction: column;
   text-align: start;
-  font-size: 20px;
+  font-size: 22px;
   min-height: 50dvh;
   width: 80%;
   margin-top: 4rem;
-  line-height: 2rem;
   font-family: 'Frank Ruhl Libre', serif;
   }
 
@@ -301,7 +305,7 @@ font-family: 'Frank Ruhl Libre', serif;
   margin-right: 5rem;
 }
 
-#about-image2{
+#about-image2{ 
   display: flex;
   width: 60%;
   height: 425px;
@@ -314,7 +318,6 @@ text-align: start;
 font-size: 20px;
 width: 90%;
 margin: 5rem;
-line-height: 2rem;
 font-family: 'Frank Ruhl Libre', serif;
 }
 

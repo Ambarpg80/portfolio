@@ -53,10 +53,10 @@ function Home(){
                 <iframe id="project-image2" src="https://youtube.com/embed/fjyCoFFDt0k" title="LitQuest Demo" loading="lazy" frameborder="0" referrerPolicy="origin" ></iframe>
                 <p>JobLancer is an job search application for users to read & filter job posts, create, update and withdraw job applications .</p>
             </Col>
-            <Col xl={4} lg={6} md={3} id="project3" >
+            {/* <Col xl={4} lg={6} md={3} id="project3" >
                 <iframe id="project-image3" src="https://youtube.com/embed/6rB0yk_Xpxg"title="LitQuest Demo" loading="lazy" frameborder="0" referrerPolicy="origin" ></iframe>
                 <p> Rent a Ride is an application for customer service agents to read, create, update and remove reservations as well inventory.</p>
-            </Col>
+            </Col> */}
             <a href="/Demos" id="demos-link"> See all Demos</a>
         </Row>
       </Container>
@@ -69,18 +69,19 @@ function Home(){
                     <p>November 8, 2023</p>
                </a>
             </Col>
-            <Col md={3} id="blog2" >
+            <Col md={4} id="blog2" >
               <a href="https://ambarindev.wordpress.com/2023/09/12/rendering-json-and-serialization/"> 
                 <h3>Rendering JSON and Serialization</h3>
                 <p>September 12, 2023</p>
                 </a>
             </Col>
-            <Col md={3} id="blog3" >
+            <Col md={4} id="blog3" >
                  <a href="https://ambarindev.wordpress.com/2023/05/24/using-pluralization-and-singularization-in-active-record/">
                     <h3>Using Pluralization and Singularization in Active Record</h3>
                     <p> May 24, 2023</p>
                </a>
             </Col>
+            <a href="https://ambarindev.wordpress.com/" id="blogs-link"> See all Blogs</a>
         </Row>
       </Container>
 
