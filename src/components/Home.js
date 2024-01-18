@@ -57,7 +57,7 @@ function Home(){
                 <iframe id="project-image3" src="https://youtube.com/embed/6rB0yk_Xpxg"title="LitQuest Demo" loading="lazy" frameborder="0" referrerPolicy="origin" ></iframe>
                 <p> Rent a Ride is an application for customer service agents to read, create, update and remove reservations as well inventory.</p>
             </Col> */}
-            <a href="/Demos" id="demos-link"> See all Demos</a>
+            <a href="/demos" id="demos-link"> See all Demos</a>
         </Row>
       </Container>
 
