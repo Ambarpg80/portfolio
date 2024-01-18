@@ -7,7 +7,14 @@ import Col from 'react-bootstrap/Col';
 function Blog(){
     return(
     <div>
-        <h1>Hello from the Blog!</h1>
+        <h1>Blogs Coming Soon!</h1>
+        <Container>
+            <Row>
+                <Col>
+                </Col>
+            </Row>
+        </Container>
+        
        
     </div>
     )

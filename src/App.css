@@ -11,19 +11,9 @@ font-family: 'Frank Ruhl Libre', serif;
 
 .App {
   text-align: center;
-  
+  background-color:  rgb(255, 243, 224);
 }
 
-body{
-  background-color:  rgb(252, 248, 242);
-  
-}
-
-/* .container {
-  width: 100%;
-  height: auto;
-  border: #ff0000 1px solid;
-} */
 
 /* ******************** START OF NAV  *************************** */
 nav{
