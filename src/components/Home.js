@@ -66,18 +66,18 @@ function Home(){
       <Container >
         <Row id="blogs" >
             <h2> Blogs </h2>
-            <Col  md={4} id="blog1" >
+            <Col  md={3} id="blog1" >
                 <a href="https://ambarindev.wordpress.com/2023/11/08/setting-up-delegated-types/"> <h3>Setting up Delegated Types</h3>
                     <p>November 8, 2023</p>
                </a>
             </Col>
-            <Col md={4} id="blog2" >
+            <Col md={3} id="blog2" >
               <a href="https://ambarindev.wordpress.com/2023/09/12/rendering-json-and-serialization/"> 
                 <h3>Rendering JSON and Serialization</h3>
                 <p>September 12, 2023</p>
                 </a>
             </Col>
-            <Col md={4} id="blog3" >
+            <Col md={3} id="blog3" >
                  <a href="https://ambarindev.wordpress.com/2023/05/24/using-pluralization-and-singularization-in-active-record/">
                     <h3>Using Pluralization and Singularization in Active Record</h3>
                     <p> May 24, 2023</p>

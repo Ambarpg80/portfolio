@@ -96,6 +96,60 @@ nav{
   height: 45dvh;
 }
 
+@media screen and (max-width: 500px) {
+  header  {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  #header-image {
+    height: 80dvh;
+  }
+  #header-text{
+    position: absolute;
+    top: 5dvh;
+    left: 20dvh;
+    text-align: left;
+    color: white;
+    
+  }
+  #header-text h1{
+    font-size: 50px; 
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700;
+    text-shadow: rgb(182, 182, 181) 1px 1px 3px;
+  }
+  
+  #header-text h2{
+    font-size: 40px; 
+    color:rgb(246, 70, 70);
+    font-family:'Playfair Display', serif;
+    font-weight: 700;         
+    letter-spacing: .3rem;
+    text-shadow: rgb(0, 0, 0) 3px 2px 2px;
+    text-align: start;
+  }
+  
+  #header-text h4{
+    font-size: 28px; 
+    font-family: 'Gelasio', serif;
+    text-shadow: rgb(182, 182, 181) 1px 1px 3px;
+   }
+  
+  #profile-pic{
+    position: absolute;
+    top: 45dvh;
+    left: 20dvh;
+    width: 30dvh;
+    height: 35dvh;
+  }
+  #blogs {
+    flex-direction: column;
+  }
+  #blog1, #blog2, #blog3 {width: 80%;}
+}
+
 /* ******************************* END OF HEADER ******************************* */
 /* --------------------------   ABOUT SECTION   ------------------------------------ */
  #about{
@@ -202,7 +256,8 @@ font-family: 'Frank Ruhl Libre', serif;
   margin-left:3rem; 
   padding-top: 1rem;
   margin-bottom: 1rem;
-  max-width: 30%;
+  min-width: 30%;
+  max-width: 70%;
   font-family: 'Frank Ruhl Libre', serif;
 } 
 
