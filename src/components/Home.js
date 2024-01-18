@@ -5,9 +5,11 @@ import aboutCollage from '../images/about_me_collage.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { useNavigate } from 'react-router-dom';
 
 
 function Home(){
+    const navigate = useNavigate("")
     return(
     <div >
         <header className="App-header">
@@ -29,7 +31,7 @@ function Home(){
             <Col lg={5}>
             <p id="bitAbout" className="lh-lg text-md-start" >
                 Born in the Dominican Republic and raised in New York City. I consider myself a “Jane of all trades” with many labels like, veteran, mom, homework asistant, former dancer/performer/stage manager, cook, organizer and sustainer home electronics when possible. I like good food, espresso coffee, and just about every kind of art medium imaginable from going to museums and art walks, live music to cooking/baking, and all things animated, sketching/drawing/painting.
-                    <br/><a href="https://www.ambarindev.com/about">Read more...</a>
+                    <br/><a onClick={()=>{navigate("/about")}} id="moreAbout">Read more...</a>
                 </p>
                 </Col>
             <Col md={2}></Col>
@@ -57,7 +59,7 @@ function Home(){
                 <iframe id="project-image3" src="https://youtube.com/embed/6rB0yk_Xpxg"title="LitQuest Demo" loading="lazy" frameborder="0" referrerPolicy="origin" ></iframe>
                 <p> Rent a Ride is an application for customer service agents to read, create, update and remove reservations as well inventory.</p>
             </Col> */}
-            <a href="https://www.ambarindev.com/demos" id="demos-link"> See all Demos</a>
+            <a onClick={()=>{navigate("/demos")}} id="demos-link"> See all Demos</a>
         </Row>
       </Container>
 
