@@ -29,7 +29,7 @@ function Home(){
             <Col lg={5}>
             <p id="bitAbout" className="lh-lg text-md-start" >
                 Born in the Dominican Republic and raised in New York City. I consider myself a “Jane of all trades” with many labels like, veteran, mom, homework asistant, former dancer/performer/stage manager, cook, organizer and sustainer home electronics when possible. I like good food, espresso coffee, and just about every kind of art medium imaginable from going to museums and art walks, live music to cooking/baking, and all things animated, sketching/drawing/painting.
-                    <br/><a href="/about">Read more...</a>
+                    <br/><a href="https://ambarindev.com/about">Read more...</a>
                 </p>
                 </Col>
             <Col md={2}></Col>
@@ -57,7 +57,7 @@ function Home(){
                 <iframe id="project-image3" src="https://youtube.com/embed/6rB0yk_Xpxg"title="LitQuest Demo" loading="lazy" frameborder="0" referrerPolicy="origin" ></iframe>
                 <p> Rent a Ride is an application for customer service agents to read, create, update and remove reservations as well inventory.</p>
             </Col> */}
-            <a href="/demos" id="demos-link"> See all Demos</a>
+            <a href="https://ambarindev.com/demos" id="demos-link"> See all Demos</a>
         </Row>
       </Container>
 
