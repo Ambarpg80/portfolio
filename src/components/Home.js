@@ -5,30 +5,33 @@ import aboutCollage from '../images/about_me_collage.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 
 
 function Home(){
     
     return(
     <div >
-        <header className="App-header">
-            <section >
-                <div > 
-                    <img src={profile} id="profile-pic" alt="profile"/>  
-                </div>
-                <div id="header-text" >
+        <Container className="App-header">
+            <Row id="header">
+                <Col   > 
+                    <Image src={profile} id="profile-pic" alt="profile" roundedCircle fluid/>  
+                </Col>
+                <Col id="header-text" sm={2} md={2} lg={5} >
                     <h1>Hi, my name is Ambar</h1>
                     <h2>Full Stack Developer</h2>
                     <h4>I work in Javascript, React, Ruby, Ruby on Rails </h4>
-                </div>
-                <img src={header} id="header-image" alt="burred code background"/> 
-            </section>
-      </header>
+                </Col>
+             </Row> 
+        </Container>
+        <Image src={header} id="header-image" alt="blurred code background" fluid/> 
+      
       <Container >
         <Row id="about">
             <h2> A little about me…</h2>
-            <Col lg={5}>
+            <Col sm={3} md={3} lg={5}>
             <p id="bitAbout" className="lh-lg text-md-start" >
                 Born in the Dominican Republic and raised in New York City. I consider myself a “Jane of all trades” with many labels like, veteran, mom, homework asistant, former dancer/performer/stage manager, cook, organizer and sustainer home electronics when possible. I like good food, espresso coffee, and just about every kind of art medium imaginable from going to museums and art walks, live music to cooking/baking, and all things animated, sketching/drawing/painting.
                     <br/><Link to="/about"  id="moreAbout">Read more...</Link>
